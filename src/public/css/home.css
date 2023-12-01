@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.container-realTime {
+    margin: 30px;
+
+
+    & .real-time_list {
+        display: flex;
+        flex-wrap: wrap;
+
+
+    
+        .card {
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        
+            & article {            
+                & img {
+                    width: 200px;
+                }
+            }
+
+        & .card-body {
+
+            padding: 10px;
+
+
+            & h4 {
+                font-size:  1.0rem;
+                margin: 0 0 7px;
+            }
+
+            & p {
+                font-size:  1rem;
+                margin: 0 0 7px;
+                color: #888;
+            }
+
+            & button {
+                padding: 5px 10px;
+                background-color: rgb(71, 71, 194);
+                color: white;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                transition: .5s all;
+
+            }
+            & button:hover {
+                background-color: rgb(49, 49, 180);
+                
+            }   
+        }
+
+        }
+    }
+
+}

@@ -1,0 +1,57 @@
+[
+   {
+      "id": 1,
+      "title": "Msi Sword 15 A11UD-001",
+      "description": "15,6 pulgadas Full HD (1920x1080) IPS 144hz. Intel Core i7-11800H hasta 4.6GHz. 8GB DDR4. Nvidia GeForce RTX 3050 Ti 4Gb GDDR6. SSD 512GB",
+      "price": 1542,
+      "thumbnails": "https://i.ibb.co/5jjVJdz/thumbnail3.jpg",
+      "code": "2203",
+      "stock": 30,
+      "status": true,
+      "category": "gamer"
+   },
+   {
+      "id": 2,
+      "title": "Lenovo V15 G2 ITL F6AR",
+      "description": "15,6 pulgadas Full HD (1920x1080) TN Anti-Glare. Intel Core i5-1135G7 hasta 4.2GHz. 8GB DDR4. Intel Iris Xe Graphics, SSD 256GB",
+      "price": 1000,
+      "thumbnails": "https://i.ibb.co/nDYB1FK/thumbnail4.jpg",
+      "code": "3301",
+      "stock": 50,
+      "status": true,
+      "category": "oficina"
+   },
+   {
+      "id": 3,
+      "title": "Acer Aspire 5 A514-54-501Z",
+      "description": "14 pulgadas Full HD (1920x1080) ComfyView IPS. Intel Core i5-1135G7 hasta 4.2GHz. 8GB DDR4. Intel Iris Xe Graphics. SSD 256GB",
+      "price": 727,
+      "thumbnails": "https://i.ibb.co/4m0R2g1/thumbnail8.jpg",
+      "code": "6679",
+      "stock": 20,
+      "status": true,
+      "category": "hogar"
+   },
+   {
+      "id": 4,
+      "title": "Lenovo Ideapad 3 15ALC6 Rkus",
+      "description": "15,6 pulgadas Full HD (1920x1080) TN Anti-Glare. AMD Ryzen 5 5500U hasta 4.0Hz. 8GB DDR4. AMD Radeon Graphics. 256GB NVMe",
+      "price": 676,
+      "thumbnails": "https://i.ibb.co/ZTvLcVz/thumbnail6.jpg",
+      "code": "7632",
+      "stock": 10,
+      "status": true,
+      "category": "diseño"
+   },
+   {
+      "id": 5,
+      "title": "Msi Bravo 15 B5DD-244",
+      "description": "15,6 pulgadas Full HD (1920x1080) IPS 144hz. AMD Ryzen 7 5800H hasta 4.4GH. 16GB DDR4. AMD Radeon RX 5500M 4GB GDDR6. 512gb NVMe",
+      "price": 1300,
+      "thumbnails": "https://i.ibb.co/px5mVFB/thumbnail2.jpg",
+      "code": "5543",
+      "stock": 20,
+      "status": true,
+      "category": "gamer"
+   }
+]

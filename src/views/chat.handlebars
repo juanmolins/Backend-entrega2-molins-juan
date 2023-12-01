@@ -1,0 +1,19 @@
+
+<section class="container">
+    <h1>Chat en tiempo real</h1>
+    <div class="container-chat">    
+        <div class="header-chat">
+            <span>🔵 Chat</span>
+        </div>
+        <div class="messages" id="messagesLogs"></div>
+        <div class="chatbox">
+            <span id="username" title="" ></span>
+            <input type="text" name="escribir" id="chatbox" placeholder="Hola, ¿como estan?">
+        </div>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/chat.js"></script>

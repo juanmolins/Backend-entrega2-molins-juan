@@ -1,0 +1,18 @@
+
+<section class="container-realTime">
+    <h1>Home</h1>
+    <div class="real-time_list" id="container-realTime">
+        {{#each productsMongo}}
+        <div class="card" data-id="{{_id}}">
+            <article>
+                <img src="{{thumbnails}}" alt="{{title}}" width="200px">
+            </article>
+            <div class="card-body">
+                <h4>{{title}}</h4>
+                <p>${{price}}</p>
+                {{!-- <button class="delete-product" id="delete-product" data-id="{{_id}}" >Eliminar</button> --}}
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</section>

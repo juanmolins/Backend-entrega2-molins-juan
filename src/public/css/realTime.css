@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.container-realTime {
+    margin: 30px;
+    
+
+    & .real-time_list {
+        display: flex;
+        flex-wrap: wrap;
+        overflow-x: auto;
+
+
+    
+        .card {
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        
+            & article {            
+                & img {
+                    width: 200px;
+                }
+            }
+
+        & .card-body {
+
+            padding: 10px;
+
+
+            & h4 {
+                font-size:  1.0rem;
+                margin: 0 0 7px;
+            }
+
+            & p {
+                font-size:  1rem;
+                margin: 0 0 7px;
+                color: #888;
+            }
+
+            & button {
+                padding: 5px 10px;
+                background-color: rgb(71, 71, 194);
+                color: white;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                transition: .5s all;
+
+            }
+            & button:hover {
+                background-color: rgb(49, 49, 180);
+                
+            }   
+        }
+
+        }
+    }
+
+}
+.real-time_list::-webkit-scrollbar {
+  width: 8px; /* Ancho de la barra de desplazamiento */
+}
+
+.real-time_list::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color de fondo de la barra de desplazamiento */
+}
+
+.real-time_list::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del "pulgar" de la barra de desplazamiento */
+     border-radius: 4px; /* Radio de esquina del "pulgar" */
+    width: 4px;
+    
+}
+
+.real-time_list::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color del "pulgar" al pasar el cursor sobre él */
+}
+
+
+    .container-form {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    & h3 {
+        margin: 0 auto 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-form form {
+    display: grid;
+    grid-gap: 10px;
+    
+    }
+
+    .container-form label {
+    font-weight: bold;
+    }
+
+    .container-form input[type="text"],
+    .container-form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+
+    .container-form button[type="submit"] {
+    background-color: rgb(71, 71, 194);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s all;
+    }
+
+    .container-form button[type="submit"]:hover {
+    background-color: rgb(49, 49, 180);
+    }
